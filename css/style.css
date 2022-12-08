@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding:0;
+}
+#hero{
+    height: 100vh;
+    background: url(../images/pexels-anna-shvets-5231143.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(249, 247, 250);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#hero .content{
+    text-align: center;
+}
+
+#hero button{
+    padding: 10px 40px;
+    margin-top: 10px;
+    border-radius: 25px;
+    
+}
+#center{
+    position: relative;
+    width: 100%;
+    height: 300px;
+    background: #f1f4f5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}  
+#footer{
+    position: relative;
+    width: 100%;
+    height: 200px;
+    background: #0c9466;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
